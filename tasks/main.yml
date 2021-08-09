@@ -1,0 +1,6 @@
+---
+- name: wireless network template 
+  template:
+    src: "wireless-home.j2"
+    dest: /etc/netctl/wireless-home
+    force: yes
